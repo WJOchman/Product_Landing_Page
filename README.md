@@ -4,4 +4,4 @@ This project is the third required project for the "Responsive Web Design" certi
 
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
-Ugh! I need to get this project done!
+Ugh! I need to get this project done! Cos it's taking too long!
