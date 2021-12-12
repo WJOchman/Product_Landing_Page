@@ -1,4 +1,4 @@
-<h1>Product Landing Page</h1>
+<h1>Responsive Web Design Certification - Project 3 - Product Landing Page</h1>
 
 <p>This project is the third required project for the "Responsive Web Design" certification offered by freeCodeCamp.org. The purposec of this project is to build a Product Landing Page for a product of my choice, using the HTML and CSS techniques which have been covered throughout the course. The requirements for this project can be read from the official freeCodeCamp website by opening the link below:</p>
 
