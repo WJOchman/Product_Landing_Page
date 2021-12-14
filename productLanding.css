@@ -4,3 +4,46 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+/*--- Navigation ---*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #24252a;
+}
+
+header .logo {
+    color: white;   
+}
+
+header .logo h1 {
+    font-size: 40px;
+}
+
+header .navigation {
+    list-style: none;
+}
+
+header .navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header .navigation li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .navigation li a:hover {
+    color: #0088a9;
+}
