@@ -5,3 +5,8 @@
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
 <p>The product chosen for this project will be three different storm trooper helments from Star Wars. The prices for the helmets will be entirely made up. Disclaimer, I do not own any of the artwork and or rights over the concepts to these helments. I am just using them because I love Star Wars, love clone troopers, and was out of fun ideas for what 'product' to use for this project.</p>
+
+
+## Image of the Webpage
+
+![SurveyFormPicture](/ProductLandingPage.png)
