@@ -1,110 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" conent="ie=edge" />
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="productLanding.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" conent="ie=edge" />
+        <title>Product Landing Page 2</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+    </head>
 
-  <body>
+    <body>
+
+        <!-- Navigation Bar -->
     
-    <!--- Navigation and Header --->
+        <div class="navigationBar">
+            <div class="logo">
+                <img src="./republicLogo.png">
+            </div>
+            <ul class="navigation">
+                <li><a href="#product">The Product</a></li>
+                <li><a href="#video">How It Works</a></li>
+                <li><a href="#pricing">Price</a></li>
+                <li><a href="#contact">Get In Touch</a></li>
+            </ul>
+        </div>
 
-    <header>
-      <div class="logo">
-        <h1>GALACTIC REPUBLIC HELMETS</h1>
-      </div>
+        <!-- Title -->
 
-      <ul class="navigation">
-        <li><a href="#product">The Product</a></li>
-        <li><a href="#video">How It Works</a></li>
-        <li><a href="#pricing">Price</a></li>
-        <li><a href="#contact">Get In Touch</a></li>
-      </ul>
-    </header>
-    
-    <!--- Title --->
+        <div class="title">
+            <h1>CHOOSE YOUR HELMET!</h1>
+        </div>
 
-    <div class="title">
-      <h1>CHOOSE YOUR HELMET</h1>
-    </div>
+        <!-- Product Description -->
 
-    <!--- Product Introduction --->
+        <div class="products">
+            <div class="product1">
+                <h1>Phase 1 Helmet</h1>
+                <img src="./Helmet1.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis reiciendis iure alias dolor temporibus amet itaque qui, dolores dignissimos exercitationem voluptates obcaecati quia dolore! Eius aut natus enim porro! Omnis.</p>
+            </div>
+            
+            <div class="product2">
+                <h1>Phase 2 Helmet</h1>
+                <img src="./Helmet2.png">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id, illum dignissimos ipsum officiis odio eligendi debitis quibusdam, doloremque facere est provident sequi officia? Quidem ducimus ipsa soluta exercitationem eligendi.</p>
+            </div> 
+        </div>
 
-    <section id="product">
-      <div class="description">
+        <!-- Product Video -->
 
-      </div>
-      <div class="productImage">
-        <img src="./Helmet1.png" alt="Galactic Republic Clone Trooper Helmet 1">
-        <img src="./Helmet2.png" alt="Galactic Republic Clone Trooper Helmet 2">
-      </div>
-    </section>
+        <div class="productVideo">
+            <center>
+                <h1>CHECK OUT THE HELMETS IN ACTION AGAINST THE DARK FORCES!</h1>
+                <iframe class="video" width="70%" height="500" src="https://www.youtube.com/embed/SAkcolVxDy0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+        </div>
 
-    <!--- Product Video --->
+        <!-- Pricing -->
+        
+        <div class="pricing">
+            <h1 class="pricingTitle" >PRICES!</h1>
+            <div class="price1">
+                <h1>$399.99</h1>
+                <img src="./Helmet1.png">
+            </div>
+            <div class="price2">
+                <h1>$499.99</h1>
+                <img src="./Helmet2.png">
+            </div>
+        </div>
 
-    <section id="video">
-      <iframe width="420" height="315"
-        src="https://www.youtube.com/watch?v=SAkcolVxDy0">  <!--- The video is not working --->
-      </iframe>
-    </section>
+        <!-- Contact -->
 
-    <!--- Pricing --->
+        <form class="contactForm">
+            <div class="contactTitle"><h1>GET IN TOUCH!</h1></div>
+            <div class="NameAddress">
+                <input type="text" placeholder="Enter Your Full Name">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="comments">
+                <input type="text" placeholder="Additional Comments and/or Questions">
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit" class="button">
+            </div>
+        </form>
 
-    <section id="pricing">
-      <div class="price1">
+        <!-- Footer -->
 
-      </div>
-
-      <div class="price2">
-
-      </div>
-    </section>
-
-    <!--- Contact --->
-
-    <form id="contact">
-      <div class="fullName">
-        <input type="text" placeholder="Full Name">
-      </div>
-
-      <div class="emailAddress">
-        <input type="email" placeholder="Email Address">
-      </div>
-
-      <div class="message">
-        <input type="text" placeholder="Your Message">
-      </div>
-    </form>
-
-    <!--- Footer --->
-
-    <footer class="footer">
-      <div class="FooterTitle">
-        <h2>
-          FOLLOW ME ON SOCIAL MEDIA TO CHECK OUT MY WORK!
-        </h2>
-      </div>
-
-      <div class="FooterLinks">
-        <a href="https://github.com/WJOchman" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="https://www.instagram.com/wjochman/" target="_blank"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/wojciech-j-ochman/" target="_blank"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </footer>
-
-    <!--- Copyright --->
-
-    <div class="copyrightText">
-      <p>
-        Copyright <i class="fa fa-copyright"></i> 2021. Made by Wojciech J Ochman. All Rights Reserved.
-      </p>
-    </div>
-
-  </body>
+        <footer class="footer">
+            <div class="FooterTitle">
+                <h2>FOLLOW ME ON SOCIAL MEDIA TO CHECK OUT MY WORK!</h2>
+            </div>
+  
+            <div class="FooterLinks">
+                <a href="https://github.com/WJOchman" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/wjochman/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/wojciech-j-ochman/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+  
+        <!-- Copyright -->
+  
+        <div class="copyrightText">
+            <p>Copyright <i class="fa fa-copyright"></i> 2021. Made by Wojciech J Ochman. All Rights Reserved.</p>
+        </div>
+    </body>
 </html>
